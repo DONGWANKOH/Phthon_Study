@@ -14,7 +14,7 @@ a = []
 
 
 def time(cow, n):
-    global cow, n
+    # global cow, n
 
     for i in range(n):
         if cow[i][0] + cow[i][1] <= cow[i + 1][0]:
@@ -30,5 +30,5 @@ def main():
     time(cow, n)
 
 
-if __name__='__main__'
+if __name__=='__main__':
     main()
